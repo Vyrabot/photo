@@ -131,7 +131,7 @@ canvas {
   display: none;
 }
 footer {
-  position: absolute;
+  position: relative;
   left: 0;
   bottom: 0;
   background: #000;
