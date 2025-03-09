@@ -7,6 +7,9 @@
 :root {
   --color: #009988;
 }
+body {
+  height: 100vh;
+}
 .container {
   width: 100%;
   height: auto;
@@ -128,7 +131,9 @@ canvas {
   display: none;
 }
 footer {
-  position: relative;
+  position: absolute;
+  left: 0;
+  bottom: 0;
   background: #000;
   color: #009988;
   width: 100%;

@@ -30,7 +30,7 @@ navigator.mediaDevices
 // Take photo with delay
 selfy.onclick = function () {
   let count = 0;
-  const capturePhoto = 5;
+  const capturePhoto = 6;
   const countDownInterval = setInterval(() => {
     count++;
     countNum.style.display = "block";
